@@ -1,0 +1,6 @@
+#!/bin/bash
+# Maven Wrapper for SecureBank API (Linux/Mac fallback)
+export JAVA_HOME="/c/lk/openjdk-25.0.2_windows-x64_bin/jdk-25.0.2"
+export MAVEN_HOME="/c/lk/apache-maven-3.9.9"
+export PATH="$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH"
+mvn "$@"
